@@ -1,0 +1,58 @@
+# --- Environnements virtuels ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Fichiers de configuration et variables d'environnement ---
+.env
+.env.local
+.env.*.local
+
+# --- Bases de données locales ---
+*.sqlite3
+*.db
+*.db-journal
+
+# --- IDEs et éditeurs (VS Code, PyCharm, etc.) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS / Système ---
+.DS_Store
+Thumbs.db
+
+# --- Logs et rapports de test ---
+logs/
+*.log
+pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
